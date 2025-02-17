@@ -1,4 +1,4 @@
-package org.example.pr4;
+package org.example.pr4.srp;
 
 public class AuthService {
     private final UserRepository userRepository;

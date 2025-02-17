@@ -1,4 +1,4 @@
-package org.example.pr4;
+package org.example.pr4.srp;
 
 public class OopPractice04_2 {
     public static void main(String[] args) {
@@ -11,6 +11,5 @@ public class OopPractice04_2 {
         AuthService authService = new AuthService(userRepository);
         boolean authenticated = authService.login("codeit", "codeit123");
         System.out.println(authenticated);
-
     }
 }

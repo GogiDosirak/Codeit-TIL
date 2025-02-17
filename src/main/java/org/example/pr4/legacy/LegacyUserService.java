@@ -1,4 +1,4 @@
-package org.example.pr4;
+package org.example.pr4.legacy;
 
 import java.util.HashMap;
 import java.util.Map;

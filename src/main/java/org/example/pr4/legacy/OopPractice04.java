@@ -1,4 +1,4 @@
-package org.example.pr4;
+package org.example.pr4.legacy;
 
 public class OopPractice04 {
     public static void main(String[] args) {

@@ -1,10 +1,9 @@
-package org.example.pr4;
+package org.example.pr5;
 
 import java.util.HashMap;
 import java.util.Map;
 
-// 실제 데이터를 저장하고 불러오는 것만 담당
-public class UserRepository {
+public class MapUserRepository implements UserRepository{
     private final Map<String, String> userDb = new HashMap<>();
 
     public void saveUser(String userId, String password) {
@@ -18,5 +17,4 @@ public class UserRepository {
     public boolean existsUser(String userId) {
         return userDb.containsKey(userId);
     }
-
 }
