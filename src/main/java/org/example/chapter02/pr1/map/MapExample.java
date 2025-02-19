@@ -1,5 +1,7 @@
 package org.example.chapter02.pr1.map;
 
+
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,6 +32,9 @@ public class MapExample {
         scores.remove("Kim");
 
         System.out.println(scores.keySet());
+
+
+
 
 
 
